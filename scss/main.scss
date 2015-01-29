@@ -1,0 +1,18 @@
+// Variables:
+$global_bg: #666;
+$global_clr: #fff;
+
+body {
+	background: $global_bg;
+	color: $global_clr;
+	font-family: "PT Sans", helvetica, sans-serif;
+}
+
+.meta {
+	position: relative;
+	margin-top: 50%;
+}
+
+.step {
+	width: 960px;
+}

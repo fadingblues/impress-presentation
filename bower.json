@@ -1,0 +1,11 @@
+{
+  "name": "cats",
+  "version": "0.0.1",
+  "dependencies": {
+    "impress.js": "~0.5.3",
+    "handlebars": "~1.0.0",
+    "jquery": "~1.10",
+    "fontawesome": "~4.3.0",
+    "bootstrap": "~3.3.2"
+  }
+}

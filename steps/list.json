@@ -1,0 +1,30 @@
+[
+    {
+        "uri": "start.html",
+        "id": "title",
+        "class": "step presentation-title",
+        "data": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 0
+        }
+    },
+    {
+        "uri": "introduction.html",
+        "id": "introduction",
+        "class": "step",
+        "data": {
+            "x": 0,
+            "y": 0,
+            "z": -3500,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 0
+        }
+    }
+]
