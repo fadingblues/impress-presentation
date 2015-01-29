@@ -1,102 +1,27 @@
-body {
-	background: #666;
-	color: #fff;
-	font-family: "PT Sans", helvetica, sans-serif;
-	min-height: 740px;
-}
-
-.fallback-message {
-    font-family: sans-serif;
-    line-height: 1.3;
-
-    width: 780px;
-    padding: 10px 10px 0;
-    margin: 20px auto;
-
-    border: 1px solid #E4C652;
-    border-radius: 10px;
-    background: #EEDC94;
-}
-
-.fallback-message p {
-    margin-bottom: 10px;
-}
-
 .impress-supported .fallback-message {
-    display: none;
+	display: none;
+}
+.step{
+	opacity: 0;
+	min-width: 960px;
 }
 
+.notes { display: none; }
+.step.active{
+	opacity: 1;}
 
-.meta {
-	font-size: 70%;
-	position: relative;
-	margin-top: 40%;
-}
+	#title {
+		padding: 10px;
+	}
+	#title .title {
+		font-size: 72px;
+		font-weight: bold;
+	}
 
-.title {
-	font-weight: bold;
-	font-size: 250%;
-	text-shadow: 2px 2px #000;
-}
-.title-color {
-	color: #B46565;
-}
+	#title .title-color {
+		color: #B46565;
+	}
 
-.alert-background {
-	background: #B46565;
-}
-
-.text-shadow { text-shadow: 2px 2px #000;}
-.text-big { font-size: 200%;}
-.border-bottom { 
-	paddig-bottom: 5px;
-	border-bottom: 2px solid #B46565
-}
-.slide-title {
-	margin-bottom: 10%;
-}
-
-.notes {display: none;}
-
-
-.step {
-	width: 960px;
-}
-
-.step {
-    position: relative;
-    width: 900px;
-    padding: 40px;
-    margin: 20px auto;
-
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing:    border-box;
-    -ms-box-sizing:     border-box;
-    -o-box-sizing:      border-box;
-    box-sizing:         border-box;
-
-    line-height: 1.5;
-}
-
-.impress-enabled .step {
-    margin: 0;
-    opacity: 0;
-
-    -webkit-transition: opacity 1s;
-    -moz-transition:    opacity 1s;
-    -ms-transition:     opacity 1s;
-    -o-transition:      opacity 1s;
-    transition:         opacity 1s;
-}
-
-.impress-enabled .step.active { opacity: 1 }
-
-.author::before {
-	content: 'by: ';
-	color: #B46565;
-	font-weight: bold;
-}
-.email::before {content: 'email: '; color: #B46565}
-
-/* Color class */
-.red { color:#B46565;}
+	#title .meta {
+		margin-top: 40%;
+	}

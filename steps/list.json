@@ -18,13 +18,55 @@
         "id": "introduction",
         "class": "step",
         "data": {
-            "x": 0,
+            "x": 2400,
             "y": 0,
-            "z": -3500,
+            "z": 0,
             "scale": 1,
             "rotate-x": 0,
             "rotate-y": 0,
             "rotate-z": 0
+        }
+    },
+    {
+        "uri": "differenza.html",
+        "id": "differenza",
+        "class": "step",
+        "data": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "vantaggi.html",
+        "id": "vantaggi",
+        "class": "step",
+        "data": {
+            "x": -2400,
+            "y": 0,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "svantaggi.html",
+        "id": "svantaggi",
+        "class": "step",
+        "data": {
+            "x": 0,
+            "y": 2400,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
         }
     }
 ]
