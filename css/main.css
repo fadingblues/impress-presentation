@@ -2,6 +2,7 @@
 	display: none;
 }
 .step{
+	position: relative;
 	opacity: 0;
 	min-width: 960px;
 }
@@ -9,6 +10,13 @@
 .notes { display: none; }
 .step.active{
 	opacity: 1;}
+
+.alert {
+	color: #B46565;
+	font-weight: bold;
+}
+
+.center { text-align: center; }
 
 	#title {
 		padding: 10px;
@@ -24,4 +32,51 @@
 
 	#title .meta {
 		margin-top: 40%;
+	}
+
+	#introduction {
+		width: 600px;
+		font-size: 250%;
+	}
+
+	#introduction img {
+		width: 600px;
+
+	}
+
+	#differenza {
+		width: 600px;
+		font-size: 250%;
+	}
+
+	#vantaggi {
+		width: 600px;
+		font-size: 200%;
+	}
+
+	#vantaggi ul {
+		list-style: square;
+	}
+
+	#opensource, #possibilita, #css3 {
+		width: 600px;
+		font-size: 250%;
+	}
+
+	#opensource .money {
+		font-size: 300%;
+		color: #B46565;
+	}
+
+	#svantaggi {
+		width: 600px;
+		font-size: 200%;
+	}
+
+	#svantaggi .footnote {
+		font-size: 65%;
+	}
+
+	#possibilita .footnote {
+		font-size: 65%;
 	}

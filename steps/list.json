@@ -16,9 +16,9 @@
     {
         "uri": "introduction.html",
         "id": "introduction",
-        "class": "step",
+        "class": "step center",
         "data": {
-            "x": 2400,
+            "x": 1500,
             "y": 0,
             "z": 0,
             "scale": 1,
@@ -30,25 +30,53 @@
     {
         "uri": "differenza.html",
         "id": "differenza",
-        "class": "step",
+        "class": "step center",
+        "data": {
+            "x": 3000,
+            "y": 0,
+            "z": 0,
+            "scale": 0.2,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 0
+        }
+    },
+    {
+        "uri": "opensource.html",
+        "id": "opensource",
+        "class": "step center",
         "data": {
             "x": 0,
-            "y": 0,
+            "y": 3000,
             "z": 0,
             "scale": 1,
             "rotate-x": 0,
             "rotate-y": 0,
-            "rotate-z": 90
+            "rotate-z": 0
         }
     },
     {
-        "uri": "vantaggi.html",
-        "id": "vantaggi",
-        "class": "step",
+        "uri": "possibilita.html",
+        "id": "possibilita",
+        "class": "step center",
         "data": {
-            "x": -2400,
+            "x": 0,
             "y": 0,
-            "z": 0,
+            "z": -9000,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 0
+        }
+    },
+    {
+        "uri": "css3.html",
+        "id": "css3",
+        "class": "step center",
+        "data": {
+            "x": 1000,
+            "y": 200,
+            "z": -4000,
             "scale": 1,
             "rotate-x": 0,
             "rotate-y": 0,
@@ -58,15 +86,15 @@
     {
         "uri": "svantaggi.html",
         "id": "svantaggi",
-        "class": "step",
+        "class": "step center",
         "data": {
             "x": 0,
-            "y": 2400,
+            "y": 0,
             "z": 0,
             "scale": 1,
             "rotate-x": 0,
             "rotate-y": 0,
-            "rotate-z": 90
+            "rotate-z": 0
         }
     }
 ]
